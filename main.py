@@ -1,4 +1,8 @@
 #Write your code here.
 a=eval(input())
+l=[]
 for i in a:
-    print(f"{i:,}")
+    k=f"{i:,}"
+    l.append(k)
+
+print(l)
